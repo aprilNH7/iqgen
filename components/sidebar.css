@@ -1,0 +1,30 @@
+.sidebar
+{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    background-color: #f8f9fa;
+    height: 100vh;
+    padding: 1rem;
+}
+.sidebar-item
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #333;
+    text-decoration: none;
+    margin: 8px 0;
+    font-weight: 500;
+}
+.sidebar-item:hover
+{
+    background-color: #eaeaea;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+.epc-only
+{
+    color: #d63384;
+}
+  
